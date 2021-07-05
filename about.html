@@ -1,55 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="style.css"title="" type=""/>
-<title>About</title>
-<style>
-.container{background-color: lightblue;width:100%;height:50px}
-</style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cards {
+            grid-template-columns: 24% 24% 24%;
+        }
+        
+        .card {
+            margin-top: 20px;
+        }
+        
+        .card>table {
+            width: 60%;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="container">
-   <nav>
-    <a href="home.html">Home</a>|
-    <a href="about.html">About us</a>| <a href="prevent.html">Preventions</a>
-    <a href="doloeltonn@gmail.com">Email us</a>|
-    </nav>
-<h1>Mission</</h1>
- <p>
- Our mission is to serve individuals at risk for COVID-19 and food insecurity,using technology to
- empower community organizations and local volunteers to deliver the essential supplies to those in
- need.
- </p>
- <div class="Content">
- <h2>How we help</h2>
-<p>
-Lemme Help connects those who must shelter in place with our volunteers and delivery partners so
-groceries,medication and essential supplies get delivered safely.Our technology platform makes
-community volunteerism easy and reliable while providing an intuitive solution for partners to scale their own impact.
-<br> <br>
-<img src="guy.jpg" alt="guy"
-style="width:40%; height:187px; float:left;margin-right:5%">
-Our partner solutions allow organizations to fulfill custom and batch requests at scale through the Lemme Help platform,while we connect
-individuals who need help and can offer help through our website.
-<br> <br> 
-Our partnerships with organizations like Wider Circle,Optum,Second
-Harvest,Uber and other shave allow edustohelp bridge volunteer
-shortages and solve the challenge of last mile delivery at scale.We've
-grown the number of people we can help by working together—and we
-are always open to new partners who want to contribute to our mission.
-</p>
-<h3>Join our team</h3>
-<p>
-  Founded by veterans of Uber,Facebook,and Google,as well as students beginning their career, the Lemme Help organization comprises more than 150 volunteers around the country who want to give
-  back.Together,we make local volunteerism easy and reliable for our partners and help to slow the
-  national spread of COVID-19.
-  <br> <br>
-  If you are passionate about making a difference in people’slives,we’d love to have you join our team of dedicated volunteers!
-   </p>
+
+    <!-- This portion has the logo and the menu items -->
+    <div id="header">
+        <a href="home.html">
+            <div id="logo"></div>
+        </a>
+
+        <div id="menu">
+            <a class="link" href="home.html">HOME</a>
+            <a class="link" href="events.html">EVENTS</a>
+            <a class="link active" href="about.html">ABOUT</a>
+        </div>
+    </div>
+
+    <!-- Upcoming Events text -->
+    <h2 class="upcoming-event">OUR TEAM</h2>
+
+    <!-- This portion has the cards -->
+    <div id="cards">
+        <div class="card">
+            <img class="speaker-img" src="aben.jpg" alt="">
+            <h4 class="speaker-name">Abednego Jasy</h4>
+            <table class="speaker-info">
+                <tbody>
+                    <tr>
+                        <th>POSITION</th>
+                        <td>:</td>
+                        <td>Programmer</td>
+                    </tr>
+                    <tr>
+                        <th>CONTACT</th>
+                        <td>:</td>
+                        <td>0777965763</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">
+                <button class="register">Contact Me</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img class="speaker-img" src="morgan.png" alt="">
+            <h4 class="speaker-name">James A. Morgan</h4>
+            <table class="speaker-info">
+                <tbody>
+                    <tr>
+                        <th>POSITION</th>
+                        <td>:</td>
+                        <td>Programmer</td>
+                    </tr>
+                    <tr>
+                        <th>CONTACT</th>
+                        <td>:</td>
+                        <td>0777850481</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">
+                <button class="register">Contact Me</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img class="speaker-img" src="dolo.jpg" alt="">
+            <h4 class="speaker-name">Elton N. Dolo</h4>
+            <table class="speaker-info">
+                <tbody>
+                    <tr>
+                        <th>POSITION</th>
+                        <td>:</td>
+                        <td>Database Administrator</td>
+                    </tr>
+                    <tr>
+                        <th>CONTACT</th>
+                        <td>:</td>
+                        <td>0775990185</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">
+                <button class="register">Contact Me</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img class="speaker-img" src="mulbah.jpg" alt="">
+            <h4 class="speaker-name">Stephen D. Mulbah</h4>
+            <table class="speaker-info">
+                <tbody>
+                    <tr>
+                        <th>POSITION</th>
+                        <td>:</td>
+                        <td>Network technician</td>
+                    </tr>
+                    <tr>
+                        <th>CONTACT</th>
+                        <td>:</td>
+                        <td>0886784545</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">
+                <button class="register">Contact Me</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img class="speaker-img" src="marcus.jpg" alt="">
+            <h4 class="speaker-name">Marcus Nat</h4>
+            <table class="speaker-info">
+                <tbody>
+                    <tr>
+                        <th>POSITION</th>
+                        <td>:</td>
+                        <td>Graphic designer</td>
+                    </tr>
+                    <tr>
+                        <th>CONTACT</th>
+                        <td>:</td>
+                        <td>0775716372</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">
+                <button class="register">Contact Me</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img class="speaker-img" src="icon.png" alt="">
+            <h4 class="speaker-name">Zechariah Bonoe</h4>
+            <table class="speaker-info">
+                <tbody>
+                    <tr>
+                        <th>POSITION</th>
+                        <td>:</td>
+                        <td>Network technician</td>
+                    </tr>
+                    <tr>
+                        <th>CONTACT</th>
+                        <td>:</td>
+                        <td>0886803326</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">
+                <button class="register">Contact Me</button>
+            </a>
+        </div>
+    </div>
 </body>
 
 </html>
